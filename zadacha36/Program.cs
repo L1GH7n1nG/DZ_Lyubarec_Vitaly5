@@ -1,4 +1,6 @@
-﻿int[] FillArray(int size, int min, int max)
+﻿// Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+
+int[] FillArray(int size, int min, int max)
 {
 	int[] arr = new int[size];
 	Random massiv = new Random();
