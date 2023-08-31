@@ -6,7 +6,7 @@ int[] FillArray(int size, int min, int max)
 	Random massiv = new Random();
 	for (int i = 0; i < arr.Length; i++)
 	{
-		arr[i] = massiv.Next(min, max + 1);
+		arr[i] = massiv.Next(min, max);
 	}
 	return arr;
 }
