@@ -35,6 +35,6 @@ int FindEven(int[] arr)
 	return count;
 }
 
-int[] array = FillArray(10, -999, 1000);
+int[] array = FillArray(10, 100, 1000);
 PrintArray(array);
-Console.Write($" -> количество чётных чисел в массиве - {FindEven(array)}");
+Console.Write($" -> количество чётных чисел в массиве {FindEven(array)}");
