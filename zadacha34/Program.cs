@@ -1,4 +1,6 @@
-﻿int[] FillArray(int size, int min, int max)
+﻿// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
+
+int[] FillArray(int size, int min, int max)
 {
 	int[] arr = new int[size];
 	Random massiv = new Random();
